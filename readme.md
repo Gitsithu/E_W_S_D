@@ -17,7 +17,7 @@ Next, you must type the following command
 4."php artisan route:clear"
 5."php artisan view:clear"
 6."php artisan migrate --seed"
-
+7."php artisan key:generate"
 After all, the last command that you need to type is "php artisan serve".
 
 Then you start running "localhost:8000" in your browser.
