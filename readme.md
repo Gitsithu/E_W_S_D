@@ -8,7 +8,7 @@ After that you also need to go into the project folder path in your cmd.
 
 And you should write "composer update" in your cmd.
 
-Then you need to creat database by name which must equal to database name in .env file.
+Then you need to creat database by name which must equal to database name (E_W_S_D) in .env file.
 
 Next, you must type the following command 
 1."php artisan config:clear"
@@ -18,6 +18,7 @@ Next, you must type the following command
 5."php artisan view:clear"
 6."php artisan migrate --seed"
 7."php artisan key:generate"
+
 After all, the last command that you need to type is "php artisan serve".
 
 Then you start running "localhost:8000" in your browser.
