@@ -193,7 +193,7 @@
                                 <a class="nav-link" href="/backend/report/after_comment"><i class="fas fa-newspaper"></i>Contribution per without after 14 days comment Report List</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="/backend/log/activities"><i class="fas fa-chart-line"></i>Anatylic of Use</a>
+                                <a class="nav-link" href="/backend/log/activities"><i class="fas fa-chart-line"></i>Analytics of Use</a>
                             </li>
                             <!-- this is end for user with role id 1 -->
 
