@@ -128,7 +128,7 @@
                                                 $parameter = $obj->id;
                                             $parameter= Crypt::encrypt($parameter);
                             ?>
-                                <a href="/frontend/faculty/detail/{{ $parameter }}" class="free">More Detail</a>
+                                <a href="/frontend/faculty/edit/{{ $parameter }}" class="free">More Detail</a>
                                 
                             </div>
                             @else
