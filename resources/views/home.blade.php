@@ -164,7 +164,8 @@
 <!-- this is end for the header pf the profile home page -->
 
 
-<div class="container" id="off-set">
+<div class="card">
+<div class="card-body">
   <div class="row">
         <div class="col-md-12">
             
@@ -182,7 +183,7 @@
                 
                     <!-- this is written for table of what kind of user information topic will be shown -->           
                         <div class="table-responsive">
-                        <table class='table' style="margin-top:20px;margin-bottom:20px;">
+                        <table id="example" class="table table-striped table-bordered second" style="width:100%">
                 
                                 <thead class="thead">
                                     <tr>
@@ -237,6 +238,7 @@
                  
         </div>
     </div>
+</div>
 </div>
 
 <!-- this is written for the alert box. The alert box will be displayed when user takes certain action -->
@@ -344,21 +346,27 @@
                 <!-- this is written for the conditions of the user that is seperated by the role_id whether it has permission or not -->
 
                 <!-- this is written for the user with role_id '1' -->
+                
+                    
                                 @if(Auth::user()->role_id==1)
                                 <div class="col-md-12">
                                 <a href="/backend/user/create" class="form-control btn btn-info" type="button" id="btn_new" name="btn_new"> <i class="fas fa-plus">New User</i></a>
                                 </div>
+                
                                 @else
                 <!-- this is end for the user with role_id '1' -->
 
                 <!-- this is written for the user with role_id '2' or '3' -->
                                 @endif
+        </div>
 
-
+                    <div class="card"><!-- .card start -->
                         <!-- this is written for table of what kind of user information topic will be shown according to the role_id --> 
                         <div class="card-body">
+                        <div class="row"><!-- .row start -->
+                        <div class="col-md-12">
                                 <div class="table-responsive">
-                                    <table id="example" class="table table-striped table-bordered second" style="width:50px">
+                                    <table id="example" class="table table-striped table-bordered second" style="width:100%">
                                         <thead>
                                             <tr>
                                                 <th>Name</th>
@@ -454,6 +462,8 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                    </div>
                     <!-- ============================================================== -->
                     <!-- end data table  -->
                     <!-- ============================================================== -->

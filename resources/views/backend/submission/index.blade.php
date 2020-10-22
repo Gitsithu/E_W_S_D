@@ -90,15 +90,20 @@
                                <div class="card-body">
                                        <a class="btn btn-success" href="{{ route('create-zip1') }}"><i class="fas fa-download"></i> Download Articles</a>
                                        <a class="btn btn-info" href="{{ route('create-zip') }}"><i class="fas fa-download"></i> Download Images</a>
+                               </div>
                                
                                 @else
                                 @endif
                                 <!-- this end to download the articles and images -->
 
                                  <!-- this is written for table of what kind of submission topic information will be shown -->
-                                       <div class="card-body">
+                                 <div class="card" id="max-card"><!-- .card start -->
+                        <!-- this is written for table of what kind of user information topic will be shown according to the role_id --> 
+                        <div class="card-body">
+                        <div class="row"><!-- .row start -->
+                        <div class="col-md-12">
                                 <div class="table-responsive">
-                                    <table id="example" class="table table-striped table-bordered second" style="width:50px">
+                                    <table id="example" class="table table-striped table-bordered second" style="width:100%">
                                         <thead>
                                             <tr>
                                             @if(Auth::user()->role_id==3)
@@ -209,6 +214,8 @@
                                 </div>
                             </div>
                         </div>
+                        </div>
+                                 </div>
                     <!-- ============================================================== -->
                     <!-- end data table  -->
                     <!-- ============================================================== -->

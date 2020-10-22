@@ -85,10 +85,15 @@
                                 </div>
                                 @else
                                 @endif
+                </div>
                         <!-- this is end for alert the message box when user take action -->
                         
                         <!-- this is written for table of what kind of academic year information topic will be shown -->   
+                        <div class="card"><!-- .card start -->
+                        <!-- this is written for table of what kind of user information topic will be shown according to the role_id --> 
                         <div class="card-body">
+                        <div class="row"><!-- .row start -->
+                        <div class="col-md-12">
                                 <div class="table-responsive">
                                     <table id="example" class="table table-striped table-bordered second" style="width:100%">
                                         <thead>
@@ -162,6 +167,8 @@
                                     </table>
                                 </div>
                             </div>
+                        </div>
+                        </div>
                         </div>
                     <!-- ============================================================== -->
                     <!-- end data table  -->

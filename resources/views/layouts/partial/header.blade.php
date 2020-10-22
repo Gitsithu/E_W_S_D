@@ -18,7 +18,11 @@
     <link rel="stylesheet" href="/backend/assets/vendor/fonts/flag-icon-css/flag-icon.min.css">
     <title>E_W_S_D</title>
 
- 
+<style>
+    #max-card{
+        width:100% !Important;
+    }
+</style>
 </head>
 <body style="overflow-x:hidden;">
 <nav class="main-header navbar navbar-expand navbar-white navbar-light">
