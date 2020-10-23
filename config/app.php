@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'University of Greenwich'),
 
     /*
     |--------------------------------------------------------------------------
@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'http://104.248.151.201'),
+    'url' => env('APP_URL', 'http://128.199.103.107'),
 
     'asset_url' => env('ASSET_URL', null),
 
