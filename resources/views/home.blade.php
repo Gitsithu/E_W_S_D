@@ -222,8 +222,11 @@
                 
                                         <td style="text-align:center;">{{ $obj->created_at }}</td>
                                         <td style="text-align:center;" >{{ $obj->updated_at }}</td>
-                
-                                        <td style="text-align:center;"><a class="btn btn-success" onclick="return myFunction();" href='/home/edit/{{ $obj->id }}'> Edit</a></td>
+                                        <?php
+                                        $parameter = $obj->id;
+                                        $parameter= Crypt::encrypt($parameter);
+                                        ?>
+                                        <td style="text-align:center;"><a class="btn btn-success" onclick="return myFunction();" href='/home/edit/{{ $parameter }}'> Edit</a></td>
                                        
                                      
                 
