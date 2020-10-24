@@ -81,7 +81,7 @@ class SubmissionController extends Controller
         // to validate the form
         
         $this->validate($request,[
-            'article' => 'required|mimes:zip,doc,docx,pdf,odt,ods,odp,xls,xlss,txt,pptx',
+            'article' => 'required|mimes:doc,docx,odt',
             'image' => 'required|image|mimes:jpeg,png,jpg,gif,svg|max:2048',
             
             
@@ -169,7 +169,7 @@ class SubmissionController extends Controller
         // to validate the form
         $this->validate($request, [
            
-            'article' => 'mimes:zip,doc,docx,pdf,odt,ods,odp,xls,xlss,txt,pptx',
+            'article' => 'mimes:doc,docx,odt',
             'image' => 'image|mimes:jpeg,png,jpg,gif,svg',
         ]);
         
