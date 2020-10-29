@@ -87,11 +87,15 @@
 
                                 <!-- this written to download the articles and images -->
                                @if(Auth::user()->role_id==2)
+                               @foreach($final_date as $final)
+                               @if($final->zip == 1)
                                <div class="card-body">
                                        <a class="btn btn-success" href="{{ route('create-zip1') }}"><i class="fas fa-download"></i> Download Articles</a>
                                        <a class="btn btn-info" href="{{ route('create-zip') }}"><i class="fas fa-download"></i> Download Images</a>
                                </div>
-                               
+                                @else
+                                @endif
+                                @endforeach
                                 @else
                                 @endif
                                 <!-- this end to download the articles and images -->

@@ -53,8 +53,11 @@ class SubmissionController extends Controller
                             JOIN academic_year as a
                             ON s.academic_year_id=a.id
                             where s.status ='.$status );
-           return view('backend.submission.index')
-           ->with('submissions', $submissions);
+        $final_date = DB::select('SELECT count(*) as zip from academic_year where curdate() > final_closure_date');
+        
+        return view('backend.submission.index')
+           ->with('submissions', $submissions)
+           ->with('final_date',$final_date);
          
         }
 
