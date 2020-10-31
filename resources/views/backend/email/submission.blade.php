@@ -6,6 +6,6 @@
 
 <!-- this is written what message will be shown in the gmail -->
 <div class="well col-sm-8">
-<p><b>* Please check and give comment your appropriate student contributions*</b></p>
+<p><b>* Please check and give comment within 14 days from today for your appropriate student contributions*</b></p>
 </div>
 <!-- this is end what message will be shown in the gmail -->
