@@ -71,21 +71,6 @@
                 </div>
                    
             </div><!-- .card end -->
-                <!-- this is wriiten for chart report -->
-                <div class="row" style="margin-bottom: 30px; margin-top:30px;">
-                <div id="chartContainer" style="height: 370px; width: 100%;">
-                    <?php
-                    
-                    
-                    foreach($registrations_count_raw as $registrations_count)
-                    
-                    {
-                    $dataPoints [] =array("y" => $registrations_count->counting, "label" => $registrations_count->faculty_type );
-                 
-                    }
-                    ?>
-                    </div>
-                </div>
 
 
 
