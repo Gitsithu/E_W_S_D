@@ -101,7 +101,7 @@
                                                 <th>Start_Academic_Year</th>
                                                 <th>End_Academic_Year</th>
                                                 <th>First_Closure_Date</th>
-                                                <th>First_Closure_Date</th>
+                                                <th>Final_Closure_Date</th>
                                                 <th>Status</th>
                                                 <th>Created_at</th>
                                                 <th>Updated_at</th>
@@ -154,7 +154,7 @@
                                                 <th>Start_Academic_Year</th>
                                                 <th>End_Academic_Year</th>
                                                 <th>First_Closure_Date</th>
-                                                <th>First_Closure_Date</th>
+                                                <th>Final_Closure_Date</th>
                                                 <th>Status</th>
                                                 <th>Created_at</th>
                                                 <th>Updated_at</th>
